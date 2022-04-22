@@ -1,11 +1,9 @@
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
-cout << "Пожалуйста, введите имя"<<endl;
-string name;
-cout << name;
-cout<<" Hello world from "<<name<<endl;
+std::cout << "Пожалуйста, введите имя"<<std::endl;
+std::string name;
+std::cout << name;
+std::cout<<" Hello world from "<<name<<std::endl;
 }
